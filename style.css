@@ -300,7 +300,10 @@ height: 900px;
 .elegedettpartners {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 10px;
   text-align: center;
+  position: relative;
+  top: 70px;
 }
 .partnerpics {
   max-height: 100%;
@@ -308,7 +311,7 @@ height: 900px;
   width: auto;
   height: auto;
   position: absolute;
-  top: 0;
+  top: 60px;
   bottom: 0;
   left: 0;
   right: 0;
