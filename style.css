@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.link {
+    color: #FF7021;
+    text-decoration: none;
+   }
+   .link:hover {
+       text-decoration: none;
+       color: #000000;
+   }
+
+/* NAVIGACIO */
+
+
+.stickynav {
+  z-index: 500;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+
+position: fixed;
+width: 100%;
+margin:0;
+top: 0px;
+height: 60px;
+-webkit-box-shadow: 4px 11px 16px -5px rgba(0,0,0,0.20);
+-moz-box-shadow: 4px 11px 16px -5px rgba(0,0,0,0.20);
+box-shadow: 4px 11px 16px -5px rgba(0,0,0,0.20);
+}
+.menulink {
+  text-decoration: none;
+  color: #FF7021 !important;
+}
+.menulink:hover {
+  text-decoration: none;
+  color: #000000 !important;
+}
+.contactslink {
+  color: #1D366E !important;
+  font-weight: 500;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 1;
+  margin-top: 4px;
+}
+@media (max-width: 986px) {
+.contactslink {
+  margin-top: 0px;
+  display: block;
+  border: none;
+}
+
+}
+#logo {
+  position: absolute;
+  top: 0px;
+    margin: 0;
+    left: 10%;
+    width: auto;
+    height: 100%;
+    z-index: 499;
+}
+.listaelemek {
+    position:relative;
+  margin-left: 20px;
+  width: 100%;
+  left: 60%;
+}
+.lenyilo {
+  padding-left: 30px;
+  padding-right:50px;
+}
+.lenyilogomb {
+  border-radius:20px;
+}
+.dropdown-menu a:active { background-color: #FF7021;}
+
+.dropdown-menu {
+  min-width: 10px !important;
+}
+
+
+@media (max-width: 1100px) {
+.listaelemek {
+  left: 40%;
+}
+}
+@media (max-width: 986px) {
+  .listaelemek {
+    left: 0;
+    
+      margin-left: 0px;
+      width: 100%;
+
+  }
+  .listaul {
+    margin-top: 30px;
+  }
+  .menulink {
+    text-align: center;
+
+  }
+
+  .navbar ul.navbar-nav li.nav-item a.nav-link {
+background-color: #1D366E;
+font-size: 2rem;
+  }
+  .contactslink {
+    color: #FF7021 !important;
+  }
+  .languageselect-mobile {
+    font-size: 2rem;
+    color: white;
+    background-color: #1D366E;
+    text-align: center;
+    width: 100%;
+    
+
+  }
+  .languageselect-mobile a {
+    color: white;
+  }
+}
+/* MAINPAGE */
+.homepage {
+  position: relative;
+  top: 80px;
+  margin: 0;
+  
+}
+.foszoveg{
+  position:relative;
+  left: 20%;
+  top: 100px;
+  margin-right: 20px;
+}
+.fooldalszoveg {
+  margin-bottom: 40px;
+}
+.tutim-focim {
+  font-size: 4rem;
+  color: #FF7021;
+  font-weight: 600;
+}
+.tutim-alcim {
+  font-size: 3em;
+  font-weight: 500;
+  max-width: 80%;
+}
+@media only screen and (max-width: 1200px) {
+
+  .leaderpics {
+    margin-left: 0px !important;
+  }
+
+  .contacts {
+    height: 1400px !important;
+  }
+  iframe {
+    width:100% !important;
+  }
+
+  .tutim-focim {
+     font-size: 3.2rem; 
+  }
+  .tutim-alcim {
+    font-size: 2.2rem; 
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .robotlejjebb {
+    top: 70px;
+  }
+  .map {
+    margin-top: 250px !important;
+  }
+  .kapcsolattexts {
+    margin-top: 300px !important;
+  }
+
+  .bemutatkozas {
+    margin-top: 300px !important;
+  }
+  .contacts {
+    height: 1950px !important;
+  }
+  .leaderpics {
+    margin-top: 10px !important;
+  }
+  .partnerek {
+    height: 1800px !important;
+  }
+  .elsosor{
+    height: 140px !important;
+  }
+.foszoveg {
+  margin-right: none;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+  .tutim-focim {
+     font-size: 2.5em; 
+  }
+  .tutim-alcim {
+    font-size: 2em; 
+  }
+}
+#robot {
+  margin-top: 100px;
+  max-height: 800px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.button2 {
+  margin-top:20px;
+  font-weight: medium !important;
+    font-size: 1.7em !important;
+  border-radius:20px !important;
+  padding:10px 20px !important;
+  background-color:#FF7021 !important;
+  border: 0px !important;
+  cursor:pointer !important;
+  color: #ffffff !important;
+}
+.button2:hover {
+  background-color:#ffffff !important;
+  border:2px solid #FF7021 !important;
+  color: #FF7021 !important;
+  right: 0px !important;
+
+
+}
+.button2:focus 
+{ outline: none !important; }
+
+/* BEMUTATKOZÁS */
+.bemutatkozas {
+  background-color:#1D366E;
+  margin: 0;
+  margin-top: 150px;
+}
+.bemutatkozas-header {
+  color: white;
+  margin-top: 100px;
+}
+.bemutatkozas-header::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 140px;
+    border-top: 8px solid #FF7021;
+    width: 70px;
+    height: 0px;
+}
+
+.tutimbuilding {
+  max-height: 1000px;
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+}
+.tutimbuildingdiv{
+  margin:0;
+  padding: 0;
+  position: relative;
+}
+.bemutatkozas-text {
+  margin-top: 60px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+  max-width: 750px;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.bemutatkozas-szinestext  {
+  color: #FF7021;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+/* PARTNEREK */
+.partnerek {
+height: 900px;
+  width: 100%;
+  margin-top: 70px;
+}
+.elegedettpartners {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.partnerpics {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.elsosor{
+position: relative;
+height: 300px;
+}
+
+/* KAPCSOLAT */
+
+.contacts {
+  background-color: #1D366E;
+  position: relative;
+  top: 150px;
+  margin-top: 40px;
+  height: 1000px;
+  width: 100%;
+}
+.map {
+margin-top: 40px;
+margin-left: 0;
+padding: 0;
+position: relative;
+}
+iframe {
+  width:100%;
+  margin:0;
+  padding:0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.kapcsolattexts {
+  margin-left: 40px;
+}
+
+.kapcsolat-header {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.kapcsolat-header::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 140px;
+    border-top: 8px solid #FF7021;
+    width: 70px;
+    height: 0px;
+}
+.leaderpics {
+  margin-left: 20px;
+  width: auto;
+  height: 150px;
+  margin-top: 80px;
+}
+.kapcsolatbasictext {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.kapcsolatorange {
+  color: #FF7021;
+  padding-right: 10px;
+}
+.smaller {
+  font-style: italic;
+  font-size: 1rem;
+}
+.nevek {
+  margin-top:60px;
+}
+.secondleaderpic {
+  margin-top: 60px;
+}
+.leaderstext {
+  width: 100%;
+}
