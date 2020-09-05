@@ -78,7 +78,14 @@ box-shadow: 4px 11px 16px -5px rgba(0,0,0,0.20);
 .dropdown-menu a:active { background-color: #FF7021;}
 
 .dropdown-menu {
+  margin-left: 12px;
   min-width: 10px !important;
+  max-width: 100px !important;
+}
+.dropdown-item {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
 }
 
 
