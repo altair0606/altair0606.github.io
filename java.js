@@ -1,1 +1,1 @@
-AOS.init({ disable: 'mobile' });
+// AOS.init({ disable: 'mobile' });
